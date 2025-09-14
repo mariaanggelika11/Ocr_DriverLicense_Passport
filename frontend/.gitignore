@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+jspm_packages/
+
+# build output
+dist/
+build/
+.cache/
+.tmp/
+
+# testing
+coverage/
+
+# misc
+.DS_Store
+Thumbs.db
+*.log
+
+# editor
+.vscode/
+.idea/
