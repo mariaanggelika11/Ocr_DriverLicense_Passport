@@ -1,10 +1,6 @@
 fastapi
-uvicorn[standard]
-python-multipart
+uvicorn
+opencv-python
 numpy
-opencv-python-headless   # pilih -headless untuk server tanpa display
-ultralytics
 easyocr
 pytesseract
-torch   
-Pillow

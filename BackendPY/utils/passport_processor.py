@@ -160,4 +160,6 @@ def process_passport(image_rgb, model, reader, conf=0.35, iou=0.45, allow_tesser
     if not data_out.get("gender") and gender_fallback:
         data_out["gender"] = gender_fallback
 
+    data_out = {k: (v.upper() if isinstance(v, str) else v) for k, v in data_out.items()}
+
     return data_out
